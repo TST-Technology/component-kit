@@ -1,0 +1,10 @@
+{
+  "title": [
+    {
+      "name": "Coupon Name",
+      "startDate": "CreateDate",
+      "stopDate": "ExpiryDate",
+      "discount": "Discount"
+    }
+  ]
+}

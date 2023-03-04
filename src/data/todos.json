@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "coupon": "BACKONTHEBUS",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "createDate": "02.01.2022",
+      "expiryDate": "22.08.2022",
+      "status": "INACTIVE",
+      "label": "50%",
+      "id": 4554875895
+    },
+    {
+      "coupon": "HOLIDAYSPIRIT",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "createDate": "06.05.2022",
+      "expiryDate": "12.11.2022",
+      "status": "INACTIVE",
+      "label": "25%",
+      "id": 2659464985
+    },
+    {
+      "coupon": "DIWALISALE",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "createDate": "15.04.2022",
+      "expiryDate": "14.01.2023",
+      "status": "ACTIVE",
+      "label": "70%",
+      "id": 3878548784
+    }
+  ]
+}

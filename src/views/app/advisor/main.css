@@ -1,0 +1,23 @@
+.downloadIcon {
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    color: #c0a144;
+    cursor: pointer;
+    align-items: center;
+    background: #fff;
+    width: 38px;
+    justify-content: center;
+    border-radius: 500px;
+}
+
+.downloadIcon:hover {
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    background: #c0a144;
+    color: #fff;
+    width: 38px;
+    justify-content: center;
+    border-radius: 500px;
+}

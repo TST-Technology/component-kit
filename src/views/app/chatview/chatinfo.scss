@@ -1,0 +1,124 @@
+.Container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;;
+    gap: 10px;
+}
+.Profileview{
+    width: 30%;
+    border-radius: 7px;
+    background-color: #e2c33c;
+    padding: 23px 15px 23px 15px;
+}
+
+.chatList{
+    margin-top:10px
+}
+
+.Chatview{
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: block;
+    border-radius: 5px;
+    padding-top: 23px;
+}
+.Leftview{
+    text-align: left;
+    background-color: #e8e8e8 ;
+    width: 50%;
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 10px;
+    border-start-start-radius: 0px;
+}
+.Rightview{
+    text-align: right;
+    background-color:#e2c33c;
+    margin-bottom: 5px;
+    padding: 8px;
+    margin-left: 350px;
+    border-radius: 10px;
+    border-start-end-radius: 0px;
+}
+
+.Picview{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.ProfileDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.SpanHeading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(33, 33, 33);
+    text-align: initial;
+}
+
+.Spantext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(62, 62, 62);
+    text-align: initial;
+}
+.Chattext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
+}
+.Textmessage{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;   
+}
+.TextTime{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    margin-left: 20px;
+    padding-top: 10px;
+    margin-left: auto;
+    display: block;
+    color: #999;
+}
+
+.rigthTextTime{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    margin-left: 20px;
+    padding-top: 10px;
+    margin-left: auto;
+    display: block;
+    color: #4c4c4c;
+}
+@media (max-width: 800px) {
+    .Rightview {
+      margin-left: 100px;
+    }
+    .Container{
+        display: block;
+    }
+    .Profileview{
+        width: 100%;
+    }
+    .Chatview{
+        width: 100%;
+    }
+  }
