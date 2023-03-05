@@ -1,6 +1,6 @@
 {
   "name": "tst-toolkit",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "private": false,
   "devDependencies": {
     "@babel/cli": "^7.21.0",
