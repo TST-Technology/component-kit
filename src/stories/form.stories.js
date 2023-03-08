@@ -15,22 +15,60 @@ stories.add("formView", () => {
         type: "text",
         required: false,
       },
+      validation: "notEmpty",
       containerClassName: "text",
+      errorMessage: "Please Enter Name",
     },
     {
-      Label: "My Image",
+      Label: "email",
       input: {
-        id: "image",
-        type: "file",
+        id: "email",
+        type: "text",
         required: false,
-        multiple: true,
       },
+      validation: "email",
       containerClassName: "text",
+      errorMessage: "Please Enter Email",
     },
+    {
+      Label: "Country",
+      input: {
+        id: "country",
+        type: "select",
+        required: false,
+      },
+      options: [
+        {
+          id: 0,
+          value: "1",
+          label: "One",
+        },
+        {
+          id: 1,
+          value: "2",
+          label: "Three",
+        },
+      ],
+      containerClassName: "text",
+      errorMessage: "Please Enter Email",
+    },
+    // {
+    //   Label: "My Image",
+    //   input: {
+    //     id: "image",
+    //     type: "file",
+    //     required: false,
+    //     multiple: true,
+    //   },
+    //   containerClassName: "text",
+    // },
   ];
   return (
     <div className="formContainer">
-      <FormView formInputList={CORPORATE_MODAL} />
+      <FormView
+        formInputList={CORPORATE_MODAL}
+        defaultValue={{ country: "2", Name: "" }}
+      />
     </div>
   );
 });

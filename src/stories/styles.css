@@ -37,3 +37,14 @@
 .form h1 {
   font-family: sans-serif;
 }
+
+.error {
+  border: 1px solid red;
+  outline: 1px solid red;
+}
+
+.ErrorMessage {
+  color: red;
+  font-size: 10px;
+  margin-top: 2px;
+}
