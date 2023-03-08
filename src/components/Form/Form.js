@@ -181,9 +181,7 @@ const FormView = ({
 
 FormView.defaultProps = {
   formInputList: inputListSample, // list of input Fields
-  onSubmit: (payload) => {
-    console.log(payload);
-  }, // on Submit event
+  onSubmit: () => {}, // on Submit event
   defaultValue: {}, // set key=ID and value=prefilled value
   isFormPayload: false, // set true if you want to get form data on submit
   targetForm: false, //  set true if you want to get e.target on submit

@@ -68,6 +68,9 @@ stories.add("formView", () => {
       <FormView
         formInputList={CORPORATE_MODAL}
         defaultValue={{ country: "2", Name: "" }}
+        onSubmit={(payload) => {
+          console.log(payload);
+        }}
       />
     </div>
   );
