@@ -1,1 +1,1 @@
-export * from "./FormView.js";
+export * from "./FormView";

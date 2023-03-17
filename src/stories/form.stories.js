@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 
-import FormView from "../components/FormView/FormView";
+import { FormView } from "../components/FormView/FormView";
 import "./style/form.css";
 
 const stories = storiesOf("Form", module);

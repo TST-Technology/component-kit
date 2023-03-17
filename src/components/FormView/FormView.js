@@ -30,7 +30,7 @@ const Validation = {
   email: (value) => value !== "" && value.includes("@") && value.includes("."),
 };
 
-const FormView = ({
+export const FormView = ({
   formInputList,
   onSubmit,
   defaultValue,
@@ -200,5 +200,3 @@ FormView.defaultProps = {
     ],
   },
 };
-
-export default FormView;
