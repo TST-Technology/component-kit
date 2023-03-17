@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 
-import FormView from "../components/Form/Form";
+import FormView from "../components/FormView/FormView";
 import "./style/form.css";
 
 const stories = storiesOf("Form", module);
@@ -15,9 +15,9 @@ stories.add("formView", () => {
         type: "text",
         required: false,
       },
-      validation: "notEmpty",
+      validation: (value) => value !== "",
       containerClassName: "text",
-      errorMessage: "Please Enter Name",
+      errorMessage: "Please Enter First Name",
     },
     {
       Label: "email",
@@ -37,39 +37,41 @@ stories.add("formView", () => {
         type: "select",
         required: false,
       },
-      options: [
-        {
-          id: 0,
-          value: "1",
-          label: "One",
-        },
-        {
-          id: 1,
-          value: "2",
-          label: "Three",
-        },
-      ],
       containerClassName: "text",
       errorMessage: "Please Enter Email",
     },
-    // {
-    //   Label: "My Image",
-    //   input: {
-    //     id: "image",
-    //     type: "file",
-    //     required: false,
-    //     multiple: true,
-    //   },
-    //   containerClassName: "text",
-    // },
+    {
+      Label: "My Image",
+      input: {
+        id: "image",
+        type: "file",
+        required: false,
+        multiple: true,
+      },
+      containerClassName: "text",
+    },
   ];
   return (
     <div className="formContainer">
       <FormView
         formInputList={CORPORATE_MODAL}
-        defaultValue={{ country: "2", Name: "" }}
+        defaultValue={{ country: "2", name: "Daxesh Italiya" }}
         onSubmit={(payload) => {
-          console.log(payload);
+          console.log(payload.getAll("image"));
+        }}
+        options={{
+          country: [
+            {
+              id: 0,
+              value: "1",
+              label: "One",
+            },
+            {
+              id: 1,
+              value: "2",
+              label: "Three",
+            },
+          ],
         }}
       />
     </div>
