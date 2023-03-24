@@ -1,6 +1,6 @@
 {
-  "name": "tst-toolkit-check",
-  "version": "0.0.16",
+  "name": "tst-toolkit",
+  "version": "0.0.17",
   "description": "copyright By TST-technology",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

@@ -47,7 +47,10 @@ export const FormView = ({
             {data.Label && <Label>{data.Label}</Label>}
             <Input
               {...data.input}
-              className={isValid[data.input.id] ? "error" : ""}
+              className={`
+                ${data?.input?.className ? data?.input?.className : ""} ${
+                isValid[data.input.id] ? "error" : ""
+              }`}
               defaultValue={
                 defaultValue[data.input.id] ? defaultValue[data.input.id] : ""
               }
@@ -76,7 +79,9 @@ export const FormView = ({
             {data.Label && <Label>{data.Label}</Label>}
             <Input
               {...data.input}
-              className={isValid[data.input.id] ? "error" : ""}
+              className={`${
+                data?.input?.className ? data?.input?.className : ""
+              } ${isValid[data.input.id] ? "error" : ""}`}
               defaultValue={
                 data.input.type !== "file" && defaultValue[data.input.id]
                   ? defaultValue[data.input.id]
