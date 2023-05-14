@@ -1,6 +1,6 @@
 {
   "name": "tst-toolkit",
-  "version": "0.0.17",
+  "version": "0.0.19",
   "description": "copyright By TST-technology",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -10,8 +10,8 @@
     "build-storybook": "build-storybook",
     "build-lib": "rollup -c"
   },
-  "author": "TST",
-  "license": "MIT",
+  "author": "Daxesh Italiya",
+  "license": "TST",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-react": "^7.12.10",
