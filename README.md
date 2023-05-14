@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://getbootstrap.com/">
-    <img src="https://tsttechnology.in/assets/img/logo.png" alt="TST logo" width="200" height="165">
-  </a>
-</p>
-
 <h3 align="center">TST Frontend ToolKit</h3>
 
 <p align="center">
@@ -106,13 +100,13 @@ const FormComponent = () => {
 
 ## Form Props
 
-| Prop            | Type              | Default value | Description                                                                                                                                                                         |
-| --------------- | ----------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `formInputList` | `Array of Object` | `[]`          | using formInputList we can add and remove input fields in from                                                                                                                      |
-| `onSubmit`      | `Function`        | `(value)=>{}` | onSubmit function returns the value of form when form is submitted                                                                                                                  |
-| `defaultValue`  | `object`          | `{}`          | using defaultValue we can preset value of input field. to prefill data use keyID is fieldID as a key and value as per you need and add this key value pair into defaultValue object |
-| `isFormPayload` | `boolean`         | `false`       | if value is true will get response in fromData formate in onSubmit function's value parameter                                                                                       |
-| `targetForm`    | `boolean`         | `false`       | if value is true will get response in event in onSubmit function's value parameter                                                                                                  |
+| Prop            | Type            | Default value | Description                                                                                                                                                                         |
+| --------------- | --------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `formInputList` | Array of Object | []            | Using formInputList we can add and remove input fields in from                                                                                                                      |
+| `onSubmit`      | Function        | (value) => {} | OnSubmit function returns the value of form when form is submitted                                                                                                                  |
+| `defaultValue`  | object          | {}            | Using defaultValue we can preset value of input field. to prefill data use keyID is fieldID as a key and value as per you need and add this key value pair into defaultValue object |
+| `isFormPayload` | boolean         | false         | If value is true will get response in fromData formate in onSubmit function's value parameter                                                                                       |
+| `targetForm`    | boolean         | false         | If value is true will get response in event in onSubmit function's value parameter                                                                                                  |
 
 ## Example of default value props
 
@@ -180,7 +174,7 @@ const FormComponent = () => {
 
 ## FormInputList props
 
-using FormInputList props we can customize below properties :
+Using FormInputList props we can customize below properties :
 
 - Input container style : using `containerClassName`
 - Input style : using `className` in `input` object
